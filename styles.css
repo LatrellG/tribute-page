@@ -2,6 +2,7 @@
 #title {
     font-size: 48px;
     text-align: center;
+    text-decoration: underline;
     animation: move-letters 1s ease-out forwards;
   }
   
@@ -16,7 +17,10 @@
       opacity: 1;
     }
   }
-  
+  /*Color background*/
+  body{
+    background-color: white
+  }
   /* Center the main content */
   #main {
     display: flex;
@@ -55,6 +59,7 @@ h3, h4 {
   /*adjust list margins*/
   li{
     margin: 1.5em auto;
+    animation:  move-letters 2s ease-out forwards;
   }
   /* Style the link to the Wikipedia page */
   #tribute-link {
